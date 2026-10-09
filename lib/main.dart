@@ -1,4 +1,3 @@
-```dart
 import 'package:flutter/material.dart';
 
 void main() {
@@ -63,7 +62,6 @@ class _MyAppState extends State<MyApp> {
           padding: EdgeInsets.symmetric(vertical: 20),
           child: Column(
             children: [
-              // City input
               Padding(
                 padding: EdgeInsets.symmetric(horizontal: 20),
                 child: TextField(
@@ -94,7 +92,7 @@ class _MyAppState extends State<MyApp> {
 
               SizedBox(height: 35),
 
-              // City and date
+            
               Column(
                 children: [
                   Text(
@@ -112,7 +110,6 @@ class _MyAppState extends State<MyApp> {
 
               SizedBox(height: 35),
 
-              // Current weather
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
@@ -141,7 +138,6 @@ class _MyAppState extends State<MyApp> {
 
               SizedBox(height: 55),
 
-              // Weather details
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
@@ -152,8 +148,6 @@ class _MyAppState extends State<MyApp> {
               ),
 
               SizedBox(height: 45),
-
-              // Weekly forecast title
               Text(
                 '7-DAY WEATHER FORECAST',
                 style: TextStyle(
@@ -165,7 +159,6 @@ class _MyAppState extends State<MyApp> {
 
               SizedBox(height: 20),
 
-              // Horizontal carousel
               SizedBox(
                 height: 145,
                 child: ListView.builder(
@@ -238,4 +231,3 @@ class _MyAppState extends State<MyApp> {
     );
   }
 }
-```
